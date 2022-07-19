@@ -208,3 +208,13 @@ a {
     font-weight: 600;
     color: #fff;
 }
+
+/* ------- FOOTER SECTION ------- */
+
+footer {
+    padding: 40px 0;
+    color: #dedede;
+    text-align: center;
+    background: #1F2937;
+    font-size: 18px;
+}
