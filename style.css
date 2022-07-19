@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300&display=swap');
 
 body {
     display: flex;
@@ -74,8 +74,6 @@ a {
     text-decoration: none;
 }
 
-
-
 .hero-body {
     display: flex;
     gap: 40px;
@@ -142,4 +140,29 @@ a {
 .info-item p {
     font-size: 18px;
     color: #6e6e6e;
+}
+
+/* ------- QUOTE SECTION ------- */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background: #e5e7eb;
+    padding: 140px 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0 40px;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding-right: 100px;
 }
