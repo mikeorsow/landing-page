@@ -9,33 +9,43 @@
     <title>GLOBO CORP INC</title>
 </head>
 
-<body>
-    <div class="hero">
+<body class="margin-none">
+    <div class="flex justify-center background-dark">
         <div class="main-wrapper">
-            <nav class="header">
-                <div class="header-logo">GLOBO CORP</div>
-                <div class="header-links">
-                    <ul>
-                        <li><a href="">About</a></li>
-                        <li><a href="">News</a></li>
-                        <li><a href="">Products</a></li>
+            <nav class="flex items-center justify-between pt-16">
+                <div id="header-logo" class="flex-1 text-white text-lrg">
+                    GLOBO CORP
+                </div>
+                <div class="flex text-white">
+                    <ul class="flex text-med margin-none padding-none">
+                        <li><a class="text-gray" href="">About</a></li>
+                        <li><a class="text-gray" href="">News</a></li>
+                        <li><a class="text-gray" href="">Products</a></li>
                     </ul>
                 </div>
             </nav>
-            <div class="hero-body">
-                <div class="hero-left">
-                    <h1>We Make. EVERYTHING.</h1>
-                    <p class="hero-secondary-text">We are the world's leading manufacturer. Period.</p>
-                    <button class="learn-more">Learn More</button>
+            <div class="hero-body flex items-center">
+                <div class="flex-1">
+                    <h1 class="text-xxlrg text-white extra-bold margin-none">
+                        We Make. EVERYTHING.
+                    </h1>
+                    <p id="hero-secondary-text" class="text-gray text-med">
+                        We are the world's leading manufacturer. Period.
+                    </p>
+                    <button id="learn-more" class="text-white text-med background-blue border-none radius-sm py-8 px-28">
+                        Learn More
+                    </button>
                 </div>
-                <img class="hero-image" src="./images/hero-image.jpg" alt="Man working heavy machinery" />
+                <img class="hero-image flex-0" src="./images/hero-image.jpg" alt="Man working heavy machinery" width="500px" height="auto"/>
             </div>
         </div>
     </div>
-    <div class="info-section">
+    <div class="flex justify-center">
         <div class="main-wrapper">
-            <h2 class="info-section-header">Innovation is our business</h2>
-            <section class="info-section-container">
+            <h2 id="info-section-header" class="flex-1 text-xlrg text-centered bold margin-none">
+                Innovation is our business
+            </h2>
+            <section id="info-section-container" class="flex justify-center">
                 <article class="info-item">
                     <img src="./images/info-item-1.jpg" alt="close up photo of a cpu" />
                     <p>Globo silicon powers millions of consumer electronics.</p>
@@ -52,34 +62,38 @@
                 </article>
                 <article class="info-item">
                     <img src="./images/info-item-4.jpg" alt="" />
-                    <p>The highest grade ceramic coatings for travel mugs and waterbottles</p>
+                    <p>High-grade ceramic coatings for travel mugs and waterbottles</p>
                 </article>
             </section>
         </div>
     </div>
-    <div class="quote-section">
+    <div id="quote-section" class="py-140 flex justify-center">
         <div class="main-wrapper">
-            <div class="quote-text">
+            <div id="quote-text" class="px-40 text-xlrg text-dark-gray">
                 Sometimes I still can’t believe just how many things they make. I love my Globo Corp blender so much,
                 and their hair care division makes my favorite shampoo and conditioner!
             </div>
-            <div class="quote-attribution">
+            <div id="quote-attribution" class="pr-100 text-lrg bold">
                 -Jennifer Lawrence, Oscar Nominee
             </div>
         </div>
     </div>
-    <div class="cta-section">
+    <div id="cta-section" class="flex justify-center">
         <div class="main-wrapper">
-            <div class="cta">
-                <div class="cta-text">
-                    <h3>Join us!</h3>
-                    Are you looking for a new career? Globo Corp is hiring!
+            <div id="cta" class="py-48 px-120 flex items-center flex-1 background-blue radius-sm">
+                <div class="flex-1">
+                    <h3 class= "text-white text-lrg margin-none">
+                        Join us!
+                    </h3>
+                    <p class="text-light-gray text-med margin-none">
+                        Are you looking for a new career? Globo Corp is hiring!
+                    </p> 
                 </div>
-                <button class="cta-button"> See Open Roles</button>
+                <button id="cta-button" class="py-10 px-36 text-white radius-sm"> See Open Roles</button>
             </div>
         </div>
     </div>
-    <footer>
+    <footer class="py-40 background-dark text-centered text-light-gray text-med">
         Copyright &copy; Michael Orsow 2022
     </footer>
 </body>
